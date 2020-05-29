@@ -1,0 +1,51 @@
+/*<!-- Navbar Component -->*/
+#navbarSupportedContent {
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 4px;
+}
+
+.navbar-nav {
+  /*border: 3px solid blue;*/
+  /*margin-right: 0px;*/
+  margin-left: 50%;
+}
+
+/*<!-- Footer -->*/
+#social_media {
+  padding: 0px;
+  margin-top: -3%;
+  margin-right: 30%;
+  /*border: 3px solid blue;*/
+}
+
+#f {
+  width: 30px;
+  height: 30px;
+}
+
+#i {
+  width: 30px;
+  height: 30px;
+  margin-left: -85%;
+}
+
+#t {
+  width: 30px;
+  height: 30px;
+  margin-left: -168%;
+}
+
+.home-newsletter{
+  padding-top: 5%;
+  /*border: 3px solid red;*/
+}
+
+.home-newsletter p {
+  width: 200%;
+}
+
+.input-group {
+  /*border: 3px solid red;*/
+  width: 350px;
+}
