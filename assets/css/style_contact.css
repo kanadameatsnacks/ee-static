@@ -1,0 +1,18 @@
+
+
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+/*border:3px solid red;*/
+}
+
+.text-center {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.container p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+}

@@ -1,0 +1,27 @@
+.jumbotron {
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100vw;
+    padding: 0px;
+  }
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.justify-content-center h4 {
+  font-family: 'Raleway', sans-serif ;
+  font-weight: 600;
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+.justify-content-center p {
+  font-family: 'Quicksand';
+  font-size: 18px;
+}

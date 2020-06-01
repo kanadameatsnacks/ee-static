@@ -1,0 +1,90 @@
+.jumbotron {
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100vw;
+    padding: 0px;
+  }
+
+.nav-link {
+  font-family: 'Quicksand';
+  font-size: 18px;
+}
+
+.menu_intro p {
+  margin-left: 10%;
+  font-size: 03px;
+}
+
+.justify-content-center h4 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 23px;
+}
+
+.justify-content-center h6 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.justify-content-center p {
+  font-family: 'Quicksand', sans-serif;
+  line-height: 10%;
+  font-size: 18px;
+  letter-spacing: 0em;
+  font-weight: 700;
+}
+
+.justify-content-center span {
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.container p {
+  font-family: 'Quicksand', sans-serif;
+  line-height: 10%;
+  font-size: 18px;
+  letter-spacing: 0em;
+  font-weight: 700;
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+.nav-link {
+  font-family: 'Quicksand';
+  font-size: 12px;
+}
+
+.justify-content-center h4 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 17px;
+}
+
+.justify-content-center h6 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.justify-content-center p {
+  font-family: 'Quicksand', sans-serif;
+  line-height: 10%;
+  font-size: 12px;
+  letter-spacing: 0em;
+  font-weight: 700;
+}
+
+.justify-content-center span {
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.container p {
+  font-size:12px;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 10%;
+  letter-spacing: 0em;
+  font-weight: 700;
+}

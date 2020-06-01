@@ -1,6 +1,6 @@
 /*<!-- Navbar Component -->*/
 #navbarSupportedContent {
-  font-size: 16px;
+  font-size: 19px;
   font-family: 'Quicksand', sans-serif;
   letter-spacing: 4px;
 }
@@ -9,6 +9,12 @@
   /*border: 3px solid blue;*/
   /*margin-right: 0px;*/
   margin-left: 50%;
+}
+
+.dropdown-item {
+  font-size: 19px;
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 4px;
 }
 
 /*<!-- Footer -->*/
@@ -43,6 +49,15 @@
 
 .home-newsletter p {
   width: 200%;
+}
+
+footer h4 {
+  font-size: 23px;
+  margin-bottom: 2%;
+}
+
+footer p {
+  font-size: 16px;
 }
 
 .input-group {
