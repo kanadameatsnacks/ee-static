@@ -24,4 +24,5 @@ p {
 .justify-content-center p {
   font-family: 'Quicksand';
   font-size: 18px;
+  font-weight: 600;
 }
