@@ -132,12 +132,12 @@ html {
 
   #banner h1 {
     width: 75%;
-    font-size: 4rem;
+    font-size: 1.8rem;
   }
 
   .menu_content {
   font-family: 'Quicksand';
-  font-size: 0.75rem;
+  font-size: 0.55rem;
   }
 
   .menu_intro {
@@ -149,18 +149,19 @@ html {
   .container p {
   font-family: 'Quicksand', sans-serif;
   line-height: 10%;
-  font-size: 18px;
+  font-size: 0.75rem;
   letter-spacing: 0em;
   font-weight: 700;
   }
 
   .menu_category {
   float: left;
-  margin-left: 18%;
+  margin-left: 8%;
   }
 
   .category_intro {
   margin-left: 20%;
+  font-size: 0.55rem;
   }
 
   .container p {
@@ -170,8 +171,8 @@ html {
   }
 
   .text-center span {
-  margin: 0 15% 5% 15%;
-  font-size:1.5rem;
+  margin: 0 0 5% 0;
+  font-size:0.8rem;
 }
 }
 
