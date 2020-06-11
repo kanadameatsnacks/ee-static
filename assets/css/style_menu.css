@@ -81,47 +81,6 @@ html {
 }
 
 
-@media only screen and (min-width: 480px) and (max-width: 767px){
-.menu_content {
-  font-family: 'Quicksand';
-  font-size: 1rem;
-}
-
-.justify-content-center h4 {
-  font-family: 'Raleway', sans-serif;
-  font-size: 1rem;
-}
-
-.justify-content-center h6 {
-  font-family: 'Raleway', sans-serif;
-  font-size: 0.7rem;
-  font-weight: 400;
-}
-
-.justify-content-center p {
-  font-family: 'Quicksand', sans-serif;
-  line-height: 10%;
-  font-size: 0.75rem;
-  letter-spacing: 0em;
-  font-weight: 700;
-}
-
-.container p {
-  font-size:1rem;
-  font-family: 'Quicksand', sans-serif;
-  line-height: 10%;
-  letter-spacing: 0em;
-  font-weight: 700;
-}
-
-.clearfix:after {
- visibility: hidden;
- display: block;
- font-size: 0;
- content: " ";
- clear: both;
- height: 0;
- }
 
 
 @media only screen and (max-width: 480px), (orientation: portrait) {
