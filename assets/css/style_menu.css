@@ -126,6 +126,10 @@ html {
 
 @media only screen and (max-width: 480px), (orientation: portrait) {
     /* ruleset for width less than 480px (mobile users) */
+  html {
+  font-size: 12px;
+  }
+
   #banner h1 {
     width: 75%;
     font-size: 4rem;
