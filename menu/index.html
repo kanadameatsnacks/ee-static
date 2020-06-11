@@ -7,7 +7,7 @@ layout: default
 <head>
     <meta charset="UTF-8">
     <title>Featured Menu</title>
-    <link rel="stylesheet" href="/assets/css/style_menu.css"><link type="text/css" rel="alternate"/>
+    <link rel="stylesheet" href="../assets/css/style_menu.css"><link type="text/css" rel="alternate"/>
     <link href='https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;500;600&display=swap' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css2?family=Quicksand&display=swap' rel='stylesheet' type='text/css'>
@@ -16,64 +16,59 @@ layout: default
 
 </head>
 <body>
-  <div class="container m-0 p-0">
-  <div class="row">
-      <div class="col-md-12 col-sm-12 m-0 p-0">
-          <img src="../assets/img/menu_jumbotron.png" alt="Menu" class="jumbotron bg-white m-0 p-0">
-      </div>
+  <!-- Jumbotron Banner -->
+  <div id="banner">
+  	<h1>Our Menu</h1>
   </div>
 
-  <div class="row justify-content-center">
-    <div class="col-md-4 col-sm-12 mt-5 pt-3 pl-5 text-center">
-      <nav class="nav flex-column">
+  <!-- General Menu Content -->
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col text-center">
+        <nav class="nav flex-column">
           <a class="nav-link text-dark menu_content" href="#feature1">• <b>Fresh Meats & Poultry</b></a>
           <a class="nav-link text-dark menu_content" href="#feature2">&nbsp;• <b>Sausages & Deli Meats</b></a>
-          <a class="nav-link text-dark menu_content" href="#feature3">• <b>Jerky&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</b></a>
-      </nav>
-    </div>
-    <div class="col-md-4 col-sm-12 mt-5 pt-3 text-center"><!-- style="border:3px solid green;"-->
-      <nav class="nav flex-column"><!-- style="border:3px solid red;"-->
-        <a class="nav-link text-dark menu_content" href="#feature4">• <b>Featured Products</b></a>
-        <a class="nav-link text-dark menu_content" href="#feature5">• <b>Holiday Highlights</b></a>
-        <a class="nav-link text-dark menu_content" href="#">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • <b>Frozen Food & Groceries</b></a>
-      </nav>
-    </div>
-  </div>
-
-  <div class="row justify-content-center">
-    <div class="col-md-12 col-sm-12 my-5 text-center">
-      <img src="../assets/img/General_Menu1.jpg" alt="general_menu1" style="width: 120%; margin-left: -10%;"> <!-- class="float-right"> -->
+          <a class="nav-link text-dark menu_content" href="#feature4">• <b>Jerky&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</b></a>
+        </nav>
+      </div>
+      <div class="col text-center">
+        <nav class="nav flex-column">
+          <a class="nav-link text-dark menu_content" href="#feature5">• <b>Featured Products</b></a>
+          <a class="nav-link text-dark menu_content" href="#feature6">• <b>Holiday Highlights</b></a>
+          <a class="nav-link text-dark menu_content" href="#">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • <b>Frozen Food & Groceries</b></a>
+        </nav>
+      </div>
     </div>
   </div>
 
-  <div class="row justify-content-center">
-    <div class="col-md-12 col-sm-12 mb-5 text-center">
-      <img src="../assets/img/General_Menu2.jpg" alt="general_menu2" style="width: 120%; margin-left: -10%;">
-    </div>
+  <!-- General Menu PDF -->
+  <div>
+    <img src="../assets/img/General_Menu1.jpg" class="general_menu" alt="general_menu1">
   </div>
 
-  <div class="row justify-content-center">
-    <div class="col-md-10 col-sm-12 mt-5 text-center clearfix">
-  <p>We put this general menu together to make it easy for you to order our top </p><br>
-  <p>sellers. At the bottom of the <a href="https://forms.gle/dXQu27RTkB2Z7Y3K7" target="_blank">order form.</a>, there's an area where you can </p><br>
-  <p>request all your favorite cuts and grocery items that you don't see in the menu.</p><br>
-  <p>We also offer the online ordering and curb-side/ in-store pick-up service.</p><br>
-    </div>
+  <div>
+    <img src="../assets/img/General_Menu2.jpg" class="general_menu" alt="general_menu2">
   </div>
 
-  <div class="row justify-content-center">
-    <div class="col-md-10 col-sm-12 mb-5 text-center">
-      <button type="button" class="btn badge-pill btn-danger btn-lg"><a href="https://forms.gle/dXQu27RTkB2Z7Y3K7" class="text-white" style="font-size: 22px;"> Order Now </a></button>
-    </div>
+  <div>
+  	<p class="menu_intro">We put this general menu together to make it easy for you to order our top
+sellers. At the bottom of the <a href="https://forms.gle/dXQu27RTkB2Z7Y3K7" target="_blank">order form</a>,
+there's an area where you can request all your favorite cuts and grocery items that you don't see in the menu.
+We also offer the online ordering and curb-side/ in-store pick-up service.</p>
   </div>
 
+  <div class="btn_order">
+  	<button type="button" class="btn badge-pill btn-danger btn-lg"><a href="https://forms.gle/dXQu27RTkB2Z7Y3K7" class="text-white" style="font-size: 22px;"> Order Now </a></button>
+  </div>
   <hr><br>
+  <div class="container">
+
 
   <div class="row justify-content-center">
-    <div class="col-md-5 col-sm-12 mb-3" id="feature1">
-      <img src="../assets/img/feature1.jpg" alt="fresh meats" style="width: 70%;" class="float-right">
+    <div class="col-md-5 col-sm-12 mb-3">
+      <img src="../assets/img/feature1.jpg" alt="fresh meats" class="menu_category" id="feature1">
     </div>
-    <div class="col-md-5 col-sm-12 ml-5 pl-5">
+    <div class="col-md-5 col-sm-12 category_intro">
       <h4>BUTCHER CUTS</h4>
       <h6>CANADA AA OR HIGHER BEEF & MANITOBA PORK</h6><br>
       <p>• <b>Steaks</b></p><br>
@@ -82,42 +77,44 @@ layout: default
     </div>
   </div>
 
-  <div class="row justify-content-center">
-    <div class="col-md-5 col-sm-5 mb-3" id="feature2">
-      <img src="../assets/img/feature2.png" alt="sausage" style="width: 70%;" class="float-right">
+
+<div class="row justify-content-center">
+    <div class="col-md-5 col-sm-12 mb-3">
+      <img src="../assets/img/feature2.png" alt="sausage" class="menu_category" id="feature2">
     </div>
-    <div class="col-md-5 col-sm-5 ml-5 pl-5">
+    <div class="col-md-5 col-sm-12 category_intro">
       <h4>GRILLING SAUSAGE</h4>
       <h6>CANADA AA OR HIGHER BEEF & MANITOBA PORK</h6><br>
-      <p>• <b>Coarse Garlic</b></p><br>
-      <p>• <b>Mild Italian | Hot Italian</b></p><br>
-      <p style="margin-right:-100%;">• <b>Mild Pepperettes | Etra Hot Pepperettes | Spicy Cheese Pepperettes |</b></p><br>
-      <p><b> Honey Garlic Pepperettes</b></p><br>
-      <p>• <b>Breakfast Sausage</b></p><br>
+      <div>
+      <p><b>• Coarse Garlic</p><br>
+      <p>• Mild Italian | Hot Italian</p><br>
+      <p>• Mild Pepperettes | Etra Hot Pepperettes <br>
+      <p> Spicy Cheese Pepperettes | Honey Garlic Pepperettes</p><br>
+      <p>• Breakfast Sausage</b></p><br></div>
     </div>
   </div>
 
   <div class="row justify-content-center">
-    <div class="col-md-5 col-sm-5 mb-3">
-      <img src="../assets/img/feature3.jpg" alt="deli" style="width: 70%;" class="float-right">
+    <div class="col-md-5 col-sm-12 mb-3">
+      <img src="../assets/img/feature3.jpg" alt="deli" class="menu_category">
     </div>
-    <div class="col-md-5 col-sm-5 ml-5 pl-5">
+    <div class="col-md-5 col-sm-12 category_intro">
       <h4>DELI MEATS</h4>
       <h6>OUR HOMESTYLE, FULLY COOKED, SMOKED TO PERFECTION</h6><br>
-      <p style="margin-right:-100%;">• <b>Freshly-Prepared Food Tray</b> - custom deli trays to</p><br>
+      <p>• <b>Freshly-Prepared Food Tray</b> - custom deli trays to</p><br>
       <p> make your occasion special</p><br>
       <p>• <b>Corned Beef</b></p><br>
       <p>• <b>Salami</b></p><br>
       <p>• <b>Pizza Pepperoni</b></p><br>
-      <p style="margin-right:-100%;">• <b>Transcona Loaf</b> - from our wonderful town Transcona</p><br>
+      <p>• <b>Transcona Loaf</b> - from our wonderful town</p><br>
     </div>
   </div>
 
   <div class="row justify-content-center">
-    <div class="col-md-5 col-sm-5 mb-3" id="feature3">
-      <img src="../assets/img/jerky.jpg" alt="jerky" style="width: 70%;" class="float-right">
+    <div class="col-md-5 col-sm-12 mb-3" id="feature4">
+      <img src="../assets/img/jerky.jpg" alt="jerky" class="menu_category">
     </div>
-    <div class="col-md-5 col-sm-5 ml-5 pl-5">
+    <div class="col-md-5 col-sm-12 category_intro">
       <h4>22 FLAVOURS OF HIGH PROTEIN JERKY</h4>
       <h6>STANDARD SHIPPING ACROSS MB</h6><br>
       <p>• <b>Beef Jerky</b></p><br>
@@ -130,10 +127,10 @@ layout: default
   </div>
 
   <div class="row justify-content-center">
-    <div class="col-md-5 col-sm-5 mb-3" id="feature4">
-      <img src="../assets/img/feature5.jpg" alt="jerky" style="width: 70%;" class="float-right">
+    <div class="col-md-5 col-sm-12 mb-3" id="feature5">
+      <img src="../assets/img/feature5.jpg" alt="bouquet" class="menu_category">
     </div>
-    <div class="col-md-5 col-sm-5 ml-5 pl-5">
+    <div class="col-md-5 col-sm-12 category_intro">
       <h4>FEATURED PRODUCTS</h4>
       <h6>PRE-ORDER FOR YOUR CARED ONES</h6><br>
       <p>• <b>Meat & Cheese Bouquet</b></p><br>
@@ -142,12 +139,12 @@ layout: default
   </div>
 
   <div class="row justify-content-center">
-    <div class="col-md-5 col-sm-5 mb-3" id="feature5">
-      <img src="../assets/img/feature6.png" alt="jerky" style="width: 70%;" class="float-right">
+    <div class="col-md-5 col-sm-12 mb-3" id="feature6">
+      <img src="../assets/img/feature6.png" alt="holidayhams" class="menu_category">
     </div>
-    <div class="col-md-5 col-sm-5 ml-5 pl-5">
+    <div class="col-md-5 col-sm-12 category_intro">
       <h4>HOLIDAY HIGHLIGHTS</h4>
-      <h6 style="margin-right:-100%;">CUSTOM ORDER FOR YOU THANKSGIVING, CHRISTMAS & <br>EASTER MEALS</h6><br>
+      <h6>CUSTOM ORDER FOR YOU THANKSGIVING, CHRISTMAS & <br>EASTER MEALS</h6>
       <h6>Homestyle Hams:</h6><br>
       <p>• <b>Whole Leg of Ham</b></p><br>
       <p>• <b>Half Leg of Ham</b></p><br>
@@ -160,15 +157,17 @@ layout: default
       <p>• <b>Crown Roast of Pork</b></p><br>
     </div>
   </div>
-
-  <div class="row justify-content-center">
+  </div>
+  <div class="text-center">
+      <span>contact us to <a href="https://forms.gle/dXQu27RTkB2Z7Y3K7" target="_blank">pre-order</a> today!</span>
+    </div>
+  <!-- <div class="row justify-content-center">
     <div class="col-12 ml-12 mt-3 mb-5 pb-5 text-center">
       <span>contact us to <a href="https://forms.gle/dXQu27RTkB2Z7Y3K7" target="_blank">pre-order</a> today!</span>
-      <!--<a href="https://forms.gle/dXQu27RTkB2Z7Y3K7" class="btn-main bg-dark" target="_blank"> Order Now </a>-->
     </div>
-  </div>
+  </div> -->
 
-  </div>
+
 
   <!-- Bootstrap's JavaScript Files -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
