@@ -91,12 +91,12 @@ html {
 
   #banner h1 {
     width: 75%;
-    font-size: 1.8rem;
+    font-size: 3.8rem;
   }
 
   .menu_content {
   font-family: 'Quicksand';
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   }
 
   .menu_intro {
@@ -136,3 +136,13 @@ html {
 }
 
 
+@media only screen and (min-width: 480px), (orientation: landscape) {
+    /* ruleset for width more than 480px (non mobile users) */
+  .menu_content_jerky {
+  margin-left: -3%;
+  }
+
+  .menu_content_frozen {
+  margin-left: 12%;
+  }
+}
