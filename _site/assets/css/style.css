@@ -1,6 +1,10 @@
+html {
+  font-size: 16px;
+}
+
 /*<!-- Navbar Component -->*/
 #navbarSupportedContent {
-  font-size: 19px;
+  font-size: 1.2rem;
   font-family: 'Quicksand', sans-serif;
   letter-spacing: 4px;
 }
@@ -13,11 +17,11 @@
 
 .nav-link {
   font-family: 'Quicksand';
-  font-size: 18px;
+  font-size: 1.2rem;
 }
 
 .dropdown-item {
-  font-size: 19px;
+  font-size: 1.2rem;
   font-family: 'Quicksand', sans-serif;
   letter-spacing: 4px;
 }
@@ -57,15 +61,32 @@
 }
 
 footer h4 {
-  font-size: 23px;
+  font-size: 1.42rem;
   margin-bottom: 2%;
 }
 
 footer p {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .input-group {
   /*border: 3px solid red;*/
   width: 350px;
+}
+
+
+/*<!-- Responsive Design -->*/
+@media only screen and (max-width: 960px) and (orientation: portrait) {
+  html {
+    margin: 0px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px), (orientation: portrait) {
+    /* ruleset for width less than 480px (mobile users) */
+  html {
+  font-size: 12px;
+  }
+
 }

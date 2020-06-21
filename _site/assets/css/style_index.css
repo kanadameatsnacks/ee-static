@@ -1,3 +1,6 @@
+html {
+  font-size: 16px;
+}
 
 /*<!-- Jumbotron -->*/
 .jumbotron {
@@ -9,19 +12,14 @@
   opacity: 0.95;
 }
 
-.jumbotron p {
-  /* float: left; */
-  margin-top: 30px;
-  /*border: 1px red solid;*/
-  /*text-indent: 20px;*/
-  /* font-family: 'Arial', sans-serif; */
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 28px;
-  padding: 0px 50px;
-  margin-bottom: 60px;
-  width: 850px;
+
+.hours {
+  margin-top: -2.5rem;
+  }
+
+.store_intro {
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 /*<!-- Text -->*/
@@ -30,23 +28,23 @@
   font-family: 'Raleway', sans-serif;
   letter-spacing: 0.02em;
   font-weight: 550;
-  font-size: 50px;
+  font-size: 2.5rem;
   margin-top: 0px;
-  padding-top: 60px;
-  margin-bottom: 20px;
+  padding-top: 5%;
+  margin-bottom: 1%;
   text-transform: uppercase;
 }
 
 .container h4 {
   font-family: 'Quicksand', sans-serif;
   font-weight: 600;
-  font-size: 23px;
+  font-size: 1.5rem;
   text-transform: uppercase;
 }
 
 .container span {
   font-family: 'Nanum Pen Script', cursive;
-  font-size: 40px;
+  font-size: 1.6rem;
   /* border: 1px solid red; */
   color: black;
   margin-bottom: 280px;
@@ -54,8 +52,12 @@
 
 .container p {
   font-family: 'Quicksand', sans-serif;
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: 600;
+}
+
+.order_now {
+  font-size: 1.5rem;
 }
 
 /*<!-- Photo Gallery -->*/
@@ -63,4 +65,34 @@
     width: 100%;
     height: 40vh;
     object-fit: cover;
+}
+
+.shop_now {
+  font-size: 1.125rem;
+}
+
+/*<!-- Responsive Design -->*/
+@media only screen and (max-width: 960px) and (orientation: portrait) {
+  html {
+    margin: 0px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px), (orientation: portrait) {
+    /* ruleset for width less than 480px (mobile users) */
+  html {
+  font-size: 12px;
+  }
+
+  .hours {
+  margin: -2.5rem 0 0 0;
+  }
+
+  .store_intro {
+  margin-left: 0%;
+  margin-right: 0%;
+  padding-left: 0;
+  padding-right: 0;
+  }
 }
