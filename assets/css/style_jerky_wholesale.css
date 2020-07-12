@@ -1,0 +1,68 @@
+html {
+  font-size: 16px;
+}
+
+#banner {
+  /*width: 100%;*/
+  height: 24rem;
+  background-image: url('../img/jerky_wholesale_jumbotron.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#banner h1 {
+  margin-bottom: -15%;
+  font-size: 6rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: white;
+  background: rgba(0, 0, 0, 0.5)
+}
+
+.jerky_flavour {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.wholesale_intro {
+  font-family: 'Quicksand';
+  font-size: 1rem;
+  margin: 2% 15% 2% 15%;
+}
+
+.btn_order {
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 480px), (orientation: portrait) {
+    /* ruleset for width less than 480px (mobile users) */
+  html {
+  font-size: 12px;
+  }
+
+  #banner h1 {
+    width: 75%;
+    font-size: 3.8rem;
+  }
+
+  .jerky_pack {
+  width: 60%;
+  height: auto;
+  /*border: 3px solid red;*/
+  /*margin: 2% 15% 2% 15%;*/
+  }
+
+  .wholesale_intro {
+  font-family: 'Quicksand';
+  font-size: 1.2rem;
+  margin: 2% 5% 2% 5%;
+  }
+
+}
