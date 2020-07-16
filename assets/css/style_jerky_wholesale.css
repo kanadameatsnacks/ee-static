@@ -17,17 +17,22 @@ html {
 
 #banner h1 {
   margin-bottom: -15%;
-  font-size: 6rem;
+  font-size: 5rem;
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   color: white;
   background: rgba(0, 0, 0, 0.5)
 }
 
+.jerky_pack {
+  max-height: 190px;
+  width: auto;
+}
+
 .jerky_flavour {
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.5rem;
-  font-weight: 500;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
 }
 
 .wholesale_intro {
@@ -38,6 +43,11 @@ html {
 
 .btn_order {
   text-align: center;
+}
+
+.jerky_post {
+  max-height: 190px;
+  width: auto;
 }
 
 
@@ -53,7 +63,7 @@ html {
   }
 
   .jerky_pack {
-  width: 60%;
+  width: 30%;
   height: auto;
   /*border: 3px solid red;*/
   /*margin: 2% 15% 2% 15%;*/
@@ -65,4 +75,7 @@ html {
   margin: 2% 5% 2% 5%;
   }
 
+  .photos {
+  display: none;
+  }
 }
