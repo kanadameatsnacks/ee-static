@@ -56,6 +56,11 @@ html {
   font-size: 12px;
   }
 
+  #banner h1 {
+    width: 75%;
+    font-size: 3.8rem;
+  }
+
   .justify-content-center p {
   text-decoration: none;
   color:black;

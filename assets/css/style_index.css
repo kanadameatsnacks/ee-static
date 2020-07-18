@@ -62,7 +62,7 @@ html {
 
 /*<!-- Photo Gallery -->*/
 .card-img-top {
-    width: 100%;
+    width: 50%;
     height: 40vh;
     object-fit: cover;
 }
@@ -94,5 +94,20 @@ html {
   margin-right: 0%;
   padding-left: 0;
   padding-right: 0;
+  }
+
+  .gallery {
+
+  }
+
+  .card-img-top {
+    /*width: 40px;
+    height: auto;*/
+    max-width: 50%;
+    height: 25vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
 }
