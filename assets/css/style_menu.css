@@ -24,14 +24,22 @@ html {
   background: rgba(0, 0, 0, 0.5)
 }
 
-.general_menu {
-  width: 100%; 
-  margin-left: 0%;
+.menu_category_text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-left: 13%;
 }
 
-.menu_content{
+.menu_item{
   font-family: 'Quicksand';
-  font-size: 1.2rem;
+  font-size: 0.8rem;
+}
+
+.menu_subcategory {
+  font-family: 'Quicksand';
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .menu_intro {
@@ -53,7 +61,6 @@ html {
 .category_intro {
   margin-left: 0;
 }
-
 
 .justify-content-center h4 {
   font-family: 'Raleway', sans-serif;
@@ -132,7 +139,14 @@ html {
   .text-center span {
   margin: 0 0 5% 0;
   font-size:1.8rem;
-}
+  }
+
+  .menu_category_text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-left: 25%;
+  }
 }
 
 
